@@ -49,7 +49,7 @@ in each subclass will throw a PostalCodeException (described below) if the forma
 access them using methods. This helps to improve encapsulation.
   4. There is a toString() method, as should be provided in most Java classes.
 
-There are three examples of subclasses of PostalCode. Each of theres implements the two abstract operations,
+  There are three examples of subclasses of PostalCode. Each of theres implements the two abstract operations,
 namely validate() and getCountry(). For example, the validate() method of one subclass, CanadianPostalCode,
 ensures that the formal is XNX NXN, where N is a number and X is a letter; the first letter is also taken from
 a restricted set. The other implementations of validate() ensure that US postal codes have an all-numeric
@@ -68,12 +68,13 @@ subclasses until none remain. Then it prints out information about the result. C
 sophistocated user interface, nevertheless it is sufficient to test the facilities of the Postal Code
 hierarchy.
 
-It would be possible to put all the code from PostalTest into PostalCode- the main() method in PostalCode
+  It would be possible to put all the code from PostalTest into PostalCode- the main() method in PostalCode
 would then simply be used to test the class. This is, in fact, a design alternative that some people
 would choose. In this assignment, the complete superstation of the classes that do the user interface
 work from the implementation classes, is chosen.
 
 ###Exercises
+
 1. Run the postal code program. Then carefully read through the code for all six classes. 
 Use the Java documentation to look up any methods or classes you do not understand.
 
