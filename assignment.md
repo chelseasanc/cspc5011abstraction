@@ -15,27 +15,27 @@ separation of user interface form the implementation part of the system.
 | validate() |
 | getCountry() |
 
-  |BritishPostalCode|
-  |-----------------|
-  |validate()|
-  |getCountry()|
+|BritishPostalCode|
+|-----------------|
+|validate()|
+|getCountry()|
 
-  |CanadianPostalCode|
-  |------------------|
-  |validate()|
-  |getCountry()|
+|CanadianPostalCode|
+|------------------|
+|validate()|
+|getCountry()|
 
-  |USZipCode|
-  |---------|
-  |validate()|
-  |getCountry()|
+|USZipCode|
+|---------|
+|validate()|
+|getCountry()|
 
-  |PostalCodeException|
-  |-------------------|
+|PostalCodeException|
+|-------------------|
 
-  |PostalTest|
-  |----------|
-  |main()|
+|PostalTest|
+|----------|
+|main()|
 
 ###Software description:
 The software is divided into three elements, as illustrated in the figure above. The first element
