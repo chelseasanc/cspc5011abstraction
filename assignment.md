@@ -6,30 +6,36 @@ important features of object oriented concepts in Java including inheritance, po
 manipulation, and access control. This assignment also illustrated the dual perspective design: the
 separation of user interface form the implementation part of the system.
 
-####PostalCode
-toString()
-getCode()
-getDestination()
-setDestination()
-validate()
-getCountry()
+  |PostalCode|
+  |----------|
+  |toString()|
+  |getCode()|
+  |getDestination()|
+  |setDestination()|
+  |validate()|
+  |getCountry()|
 
-####BritishPostalCode
-validate()
-getCountry()
+  |BritishPostalCode|
+  |-----------------|
+  |validate()|
+  |getCountry()|
 
-####CanadianPostalCode
-validate()
-getCountry()
+  |CanadianPostalCode|
+  |------------------|
+  |validate()|
+  |getCountry()|
 
-####USZipCode
-validate()
-getCountry()
+  |USZipCode|
+  |---------|
+  |validate()|
+  |getCountry()|
 
-####PostalCodeException
+  |PostalCodeException|
+  |-------------------|
 
-####PostalTest
-main()
+  |PostalTest|
+  |----------|
+  |main()|
 
 ###Software description:
 The software is divided into three elements, as illustrated in the figure above. The first element
